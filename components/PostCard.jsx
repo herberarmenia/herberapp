@@ -3,7 +3,6 @@ import moment from "moment";
 import Link from "next/link";
 
 const PostCard = ({ post }) => {
-  console.log(post.featuredImage, "image");
   return (
     <div className="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8 mt-4">
       <div className="relative overflow-hidden shadow-md pb-80 mb-6">
@@ -24,7 +23,7 @@ const PostCard = ({ post }) => {
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-calendar"
+              className="bi bi-calendar"
               viewBox="0 0 16 16"
             >
               {" "}
