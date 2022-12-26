@@ -6,11 +6,11 @@ const PostCard = ({ post }) => {
   return (
     <div className="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8 mt-4">
       <div className="relative overflow-hidden shadow-md pb-80 mb-6">
-        <img
+        {/* <img
           src={post.featuredImage.url}
           alt={post.title}
           className="objecttop absolute h-80 w-full object-cover shadow-lg rounded-t-lg lg:rpunded-lg"
-        />
+        /> */}
       </div>
       <h1 className="transition duration-200 text-center mb-8 cursor-pointer hover:text-orange-800 text-3xl font-semibold">
         <Link href={`/post/${post.slug}`}>{post.title}</Link>
