@@ -16,7 +16,7 @@ const Home =({ posts }) => {
       <FeaturedPosts />
       <div className="container mx-auto px-10 mb-8 bg-gray-200">
         <Head>
-          <title>CMS Blog</title>
+          <title>Herber</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 

@@ -52,7 +52,7 @@ const CommentsForm = ({ slug }) => {
   return (
     <div className="bd-white shadow-lg rounded-lg p-8 pb-12 mb-8">
       <h3 className="text-xl mb-8 font-semibold border-b pb-4">
-        Leave a Reply
+        Оставьте ответ
       </h3>
       <div className="grid grid-cols-1 gap-4 mb-4">
         <textarea
@@ -91,7 +91,7 @@ const CommentsForm = ({ slug }) => {
             className="text-gray-500 cursor-pointer ml-2"
             htmlFor="storeData"
           >
-            Save my e-mail and name for the next time I comment.
+            Сохраните мой адрес электронной почты и имя для следующего комментария.
           </label>
         </div>
       </div>
@@ -104,11 +104,11 @@ const CommentsForm = ({ slug }) => {
           onClick={handleCommentSubmission}
           className="transition duration-500 ease hover:bg-indigo-900 inline-block bg-pink-600 text-lg rounded-full text-white px-8 py-3 cursor-pointer"
         >
-          Post Comment
+         Оставить комментарий
         </button>
         {showSuccessMessage && (
           <span className="text-xl float-right font-semibold mt-3 text-green-500">
-            Comment submitted for review
+            Комментарий отправлен на рассмотрение
           </span>
         )}
       </div>

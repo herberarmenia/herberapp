@@ -14,7 +14,7 @@ function Header() {
         <div className="md:float-left block">
           <Link href="/">
             <span className="cursor-pointer font-bold text4xl text-black">
-              GraphCMS
+              Herber
             </span>
           </Link>
         </div>
